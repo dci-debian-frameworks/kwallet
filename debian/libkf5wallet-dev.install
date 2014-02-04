@@ -1,0 +1,4 @@
+usr/include/KF5/
+usr/lib/*/libKF5Wallet.so
+usr/lib/*/cmake/KF5Wallet/*
+usr/share/dbus-1/*

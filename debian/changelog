@@ -1,0 +1,10 @@
+kwallet-framework (4.95.0-0ubuntu1) trusty; urgency=low
+
+  [ Jonathan Riddell ]
+  * Add rename-dbus-file.diff https://git.reviewboard.kde.org/r/115218/
+
+  [ Scarlett Clark ]
+  * Initial release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 13 Jan 2014 14:45:49 +0000
+
