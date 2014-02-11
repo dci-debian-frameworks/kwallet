@@ -1,3 +1,10 @@
+kwallet-framework (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release
+    - Drop rename-dbus-file.diff, upstreamed
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:38:50 +0100
+
 kwallet-framework (4.95.0-0ubuntu1) trusty; urgency=low
 
   [ Jonathan Riddell ]
