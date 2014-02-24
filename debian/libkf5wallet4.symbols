@@ -1,8 +1,8 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
 libKF5Wallet.so.4 libkf5wallet4 #MINVER#
  _ZN7KWallet6Wallet10folderListEv@Base 4.96.0
  _ZN7KWallet6Wallet10lockWalletEv@Base 4.96.0
- _ZN7KWallet6Wallet10openWalletERK7QStringyNS0_8OpenTypeE@Base 4.96.0
+ (subst)_ZN7KWallet6Wallet10openWalletERK7QString{quintptr}NS0_8OpenTypeE@Base 4.96.0
  _ZN7KWallet6Wallet10walletListEv@Base 4.96.0
  _ZN7KWallet6Wallet10writeEntryERK7QStringRK10QByteArray@Base 4.96.0
  _ZN7KWallet6Wallet10writeEntryERK7QStringRK10QByteArrayNS0_9EntryTypeE@Base 4.96.0
@@ -28,7 +28,7 @@ libKF5Wallet.so.4 libkf5wallet4 #MINVER#
  _ZN7KWallet6Wallet13writePasswordERK7QStringS3_@Base 4.96.0
  _ZN7KWallet6Wallet14FormDataFolderEv@Base 4.96.0
  _ZN7KWallet6Wallet14PasswordFolderEv@Base 4.96.0
- _ZN7KWallet6Wallet14changePasswordERK7QStringy@Base 4.96.0
+ (subst)_ZN7KWallet6Wallet14changePasswordERK7QString{quintptr}@Base 4.96.0
  _ZN7KWallet6Wallet15keyDoesNotExistERK7QStringS3_S3_@Base 4.96.0
  _ZN7KWallet6Wallet16emitWalletOpenedEv@Base 4.96.0
  _ZN7KWallet6Wallet16readPasswordListERK7QStringR4QMapIS1_S1_E@Base 4.96.0
@@ -39,7 +39,7 @@ libKF5Wallet.so.4 libkf5wallet4 #MINVER#
  _ZN7KWallet6Wallet17walletAsyncOpenedEii@Base 4.96.0
  _ZN7KWallet6Wallet18folderDoesNotExistERK7QStringS3_@Base 4.96.0
  _ZN7KWallet6Wallet21disconnectApplicationERK7QStringS3_@Base 4.96.0
- _ZN7KWallet6Wallet21requestChangePasswordEy@Base 4.96.0
+ (subst)_ZN7KWallet6Wallet21requestChangePasswordE{quintptr}@Base 4.96.0
  _ZN7KWallet6Wallet21slotCollectionDeletedEv@Base 4.96.0
  _ZN7KWallet6Wallet21slotFolderListUpdatedERK7QString@Base 4.96.0
  _ZN7KWallet6Wallet22isUsingKSecretsServiceEv@Base 4.96.0
