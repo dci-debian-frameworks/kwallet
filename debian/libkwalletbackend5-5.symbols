@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64 i386
-libkwalletbackend5.so.4 libkwalletbackend5-4 #MINVER#
+libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN4SHA14hashEv@Base 4.96.0
  _ZN4SHA15resetEv@Base 4.96.0
  _ZN4SHA17processEPKvi@Base 4.96.0
