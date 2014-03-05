@@ -19,7 +19,7 @@ Package: libkf5wallet-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5wallet5 (= ${binary:Version}),
- libkwalletbackend5-4 (= ${binary:Version}), ${misc:Depends}
+ libkwalletbackend5-5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kwallet-framework
  Interface to KWallet, the safe desktop-wide storage 
  for passwords on KDE workspaces.
@@ -29,13 +29,13 @@ Description: development files for kwallet-framework
 Package: libkf5wallet5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libkwalletbackend5-4 (= ${binary:Version}),
+Depends: libkwalletbackend5-5 (= ${binary:Version}),
  ${shlibs:Depends}, ${misc:Depends}
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage 
  for passwords on KDE workspaces.
 
-Package: libkwalletbackend5-4
+Package: libkwalletbackend5-5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -48,7 +48,7 @@ Priority: extra
 Section: debug
 Architecture: any
 Depends: libkf5wallet5 (= ${binary:Version}),
- libkwalletbackend5-4 (= ${binary:Version}), ${misc:Depends}
+ libkwalletbackend5-5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kwallet-framework
  Interface to KWallet, the safe desktop-wide storage 
  for passwords on KDE workspaces.
