@@ -1,8 +1,9 @@
-kwallet-framework (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+kwallet-kf5 (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream alpha release
   * Rename library package for soname 5
+  * Rename source to kwallet-kf5 in line with upstream rename to kwallet
 
   [ Scarlett Clark ]
   * Fix kwalletbackend package and install files.

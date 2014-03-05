@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kwallet-framework
-Source: https://projects.kde.org/projects/frameworks/kwallet-framework
+Upstream-Name: kwallet
+Source: https://projects.kde.org/projects/frameworks/kwallet
 
 Files: *
 Copyright: © 2002-2004 George Staikos <staikos@kde.org>
