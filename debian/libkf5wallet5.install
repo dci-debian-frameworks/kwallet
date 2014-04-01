@@ -3,3 +3,4 @@ usr/share/kde5/services/kwalletd5.desktop
 usr/share/kwalletd/kwalletd.notifyrc
 usr/bin/kwalletd5
 usr/lib/*/libKF5Wallet.so.5
+usr/share/kconf_update/kwallet-4.13.upd

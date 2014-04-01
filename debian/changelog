@@ -3,6 +3,8 @@ kwallet-kf5 (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * Rename to kwallet-kf5 following upstream change to kwallet
   * Add build-dep on libgcrypt20-dev
+  * Update .install files
+  * Update symbols
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 11:06:53 +0000
 

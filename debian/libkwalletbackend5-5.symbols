@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN4SHA14hashEv@Base 4.96.0
  _ZN4SHA15resetEv@Base 4.96.0
@@ -27,6 +27,7 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN7KWallet7Backend13openPreHashedERK10QByteArray@Base 4.96.0
  _ZN7KWallet7Backend13readEntryListERK7QString@Base 4.96.0
  _ZN7KWallet7Backend13setCipherTypeENS_17BackendCipherTypeE@Base 4.96.0
+ _ZN7KWallet7Backend13swapToNewHashEv@Base 4.98.0
  _ZN7KWallet7Backend14openRCToStringEi@Base 4.96.0
  _ZN7KWallet7Backend15getSaveLocationEv@Base 4.96.0
  (subst)_ZN7KWallet7Backend4openERK10QByteArray{quintptr}@Base 4.96.0
@@ -59,6 +60,7 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZNK7KWallet5Entry8passwordEv@Base 4.96.0
  _ZNK7KWallet7Backend10folderListEv@Base 4.96.0
  _ZNK7KWallet7Backend10walletNameEv@Base 4.96.0
+ _ZNK7KWallet7Backend17createAndSaveSaltERK7QString@Base 4.98.0
  _ZNK7KWallet7Backend17entryDoesNotExistERK7QStringS3_@Base 4.96.0
  _ZNK7KWallet7Backend18folderDoesNotExistERK7QString@Base 4.96.0
  _ZNK7KWallet7Backend6isOpenEv@Base 4.96.0
