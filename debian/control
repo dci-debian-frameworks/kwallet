@@ -12,7 +12,8 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  4.98.0), libkf5i18n-dev (>= 4.98.0), libkf5auth-dev (>= 4.98.0),
  libkf5codecs-dev (>= 4.98.0), libkf5guiaddons-dev (>= 4.98.0),
  libkf5configwidgets-dev (>= 4.98.0), libkf5itemviews-dev (>= 4.98.0),
- libkf5iconthemes-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0)
+ libkf5iconthemes-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0),
+ libgcrypt20-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwallet-framework
 
