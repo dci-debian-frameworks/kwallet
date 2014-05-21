@@ -1,5 +1,5 @@
-usr/lib/*/libKF5Wallet.so.4*
-usr/share/kservices5/kwalletd5.desktop
-usr/share/knotifications5/kwalletd.notifyrc
 usr/bin/kwalletd5
+usr/lib/*/libKF5Wallet.so.4*
 usr/lib/*/libKF5Wallet.so.5
+usr/share/knotifications5/kwalletd.notifyrc
+usr/share/kservices5/kwalletd5.desktop

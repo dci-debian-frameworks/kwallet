@@ -3,46 +3,54 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.12), qtbase5-dev, libkf5config-dev (>=
- 4.99.0), libkf5windowsystem-dev (>= 4.99.0), libgpgme11-dev,
- dbus-x11, libkf5dbusaddons-dev (>= 4.99.0), libkf5windowsystem-dev
- (>= 4.99.0), libkf5service-dev (>= 4.99.0), libkf5notifications-dev
- (>= 4.99.0), libkf5coreaddons-dev (>= 4.99.0), libkf5kjs-dev (>=
- 4.99.0), libkf5i18n-dev (>= 4.99.0), libkf5auth-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0), libkf5guiaddons-dev (>= 4.99.0),
- libkf5configwidgets-dev (>= 4.99.0), libkf5itemviews-dev (>= 4.99.0),
- libkf5iconthemes-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0),
- libgcrypt20-dev
+Build-Depends: cmake,
+               dbus-x11,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.12),
+               libgcrypt20-dev,
+               libgpgme11-dev,
+               libkf5auth-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5config-dev (>=
+ 4.99.0),
+               libkf5configwidgets-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5dbusaddons-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5iconthemes-dev (>= 4.99.0),
+               libkf5itemviews-dev (>= 4.99.0),
+               libkf5kjs-dev (>=
+ 4.99.0),
+               libkf5notifications-dev
+ (>= 4.99.0),
+               libkf5service-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libkf5windowsystem-dev
+ (>= 4.99.0),
+               libkf5windowsystem-dev (>= 4.99.0),
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kwallet-framework
 
-Package: libkf5wallet-dev
+Package: libkf5wallet5
 Section: libdevel
 Architecture: any
-Depends: libkf5wallet5 (= ${binary:Version}),
- libkwalletbackend5-5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kwallet-framework
- Interface to KWallet, the safe desktop-wide storage 
- for passwords on KDE workspaces.
- .
- Contains development files for kwallet-framework.
- 
-Package: libkf5wallet5
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: libkwalletbackend5-5 (= ${binary:Version}),
- ${shlibs:Depends}, ${misc:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Secure and unified container for user passwords.
- Interface to KWallet, the safe desktop-wide storage 
+ Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
+Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkwalletbackend5-5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Secure and unified container for user passwords.
- Backend to KWallet, the safe desktop-wide storage 
+ Backend to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
 
 Package: libkf5wallet5-dbg
@@ -50,9 +58,10 @@ Priority: extra
 Section: debug
 Architecture: any
 Depends: libkf5wallet5 (= ${binary:Version}),
- libkwalletbackend5-5 (= ${binary:Version}), ${misc:Depends}
+         libkwalletbackend5-5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: debug symbols for kwallet-framework
- Interface to KWallet, the safe desktop-wide storage 
+ Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
  .
  Contains debug symbols for kwallet-framework.

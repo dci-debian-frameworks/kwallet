@@ -1,6 +1,6 @@
 usr/include/KF5/
-usr/lib/*/libKF5Wallet.so
 usr/lib/*/cmake/KF5Wallet/*
+usr/lib/*/libKF5Wallet.so
+usr/lib/*/libkwalletbackend5.so
 usr/share/dbus-1/*
 usr/share/qt5/mkspecs/modules/qt_KWallet.pri
-usr/lib/*/libkwalletbackend5.so
