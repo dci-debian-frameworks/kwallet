@@ -1,1 +1,2 @@
-usr/lib/*/libKF5Wallet.so.*
+usr/lib/*/libKF5Wallet.so.4*
+usr/lib/*/libKF5Wallet.so.5*
