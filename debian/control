@@ -44,11 +44,24 @@ Description: development files for kwallet-framework
  .
  Contains development files for kwallet-framework.
 
+Package: libkf5wallet-bin
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: libkf5wallet5 (<< 4.100.0)
+Replaces: libkf5wallet5 (<< 4.100.0)
+Description: Secure and unified container for user passwords.
+ Interface to KWallet, the safe desktop-wide storage
+ for passwords on KDE workspaces.
+ .
+ Contains the runtime files for kwallet-framework
+
 Package: libkf5wallet5
 Architecture: any
 Depends: libkwalletbackend5-5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5wallet-bin (= ${binary:Version})
 Multi-Arch: same
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
