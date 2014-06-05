@@ -45,7 +45,6 @@ Description: development files for kwallet-framework
  Contains development files for kwallet-framework.
 
 Package: libkf5wallet5
-Section: libdevel
 Architecture: any
 Depends: libkwalletbackend5-5 (= ${binary:Version}),
          ${misc:Depends},
