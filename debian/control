@@ -70,6 +70,7 @@ Description: Secure and unified container for user passwords.
 Package: libkwalletbackend5-5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5wallet-bin (= ${binary:Version})
 Multi-Arch: same
 Description: Secure and unified container for user passwords.
  Backend to KWallet, the safe desktop-wide storage

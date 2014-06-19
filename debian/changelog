@@ -20,6 +20,9 @@ kwallet-kf5 (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix libkf5wallet5.install to not be too liberal with what versions it
     may accept
 
+  [ José Manuel Santamaría Lema ]
+  * Make libkwalletbackend5-5 recommend libkf5wallet-bin.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:44:53 +0100
 
 kwallet-kf5 (4.99.0-0ubuntu1) trusty; urgency=medium
