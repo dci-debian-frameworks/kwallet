@@ -27,7 +27,9 @@ Build-Depends: cmake,
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.5
-Homepage: https://projects.kde.org/projects/frameworks/kwallet-framework
+Homepage: https://projects.kde.org/projects/frameworks/kwallet
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kwallet
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kwallet
 
 Package: libkf5wallet-dev
 Section: libdevel

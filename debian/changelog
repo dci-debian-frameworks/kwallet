@@ -5,6 +5,7 @@ kwallet-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix install file 
+  * Update watch file to stable
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:42:36 +0200
 
