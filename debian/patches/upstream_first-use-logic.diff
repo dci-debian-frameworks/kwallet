@@ -1,0 +1,126 @@
+From: Valentin Rusu <kde@rusu.info>
+Date: Mon, 07 Jul 2014 22:53:51 +0000
+Subject: Remove the legacy first start logic
+X-Git-Url: http://quickgit.kde.org/?p=kwallet.git&a=commitdiff&h=9558c56a478a02cc9939264081d0b3fe6c6c0c82
+---
+Remove the legacy first start logic
+
+BUG: 337171
+BUG: 337174
+---
+
+
+Index: kwallet-kf5-5.0.0/src/runtime/kwalletd/kwalletd.cpp
+===================================================================
+--- kwallet-kf5-5.0.0.orig/src/runtime/kwalletd/kwalletd.cpp
++++ kwallet-kf5-5.0.0/src/runtime/kwalletd/kwalletd.cpp
+@@ -446,57 +446,58 @@ int KWalletD::doTransactionOpen(const QS
+             KConfigGroup cfg(&kwalletrc, "Wallet");
+             _firstUse = false;
+             cfg.writeEntry("First Use", false);
+-        } else {
+-            // First use wizard
+-            // TODO GPG adjust new smartcard options gathered by the wizard
+-            QPointer<KWalletWizard> wiz = new KWalletWizard(0);
+-            wiz->setWindowTitle(i18n("KDE Wallet Service"));
+-            setupDialog(wiz, (WId)wId, appid, modal);
+-            int rc = wiz->exec();
+-            if (rc == QDialog::Accepted && wiz) {
+-                bool useWallet = wiz->field("useWallet").toBool();
+-                KConfig kwalletrc("kwalletrc");
+-                KConfigGroup cfg(&kwalletrc, "Wallet");
+-                cfg.writeEntry("First Use", false);
+-                cfg.writeEntry("Enabled", useWallet);
+-                cfg.writeEntry("Close When Idle", wiz->field("closeWhenIdle").toBool());
+-                cfg.writeEntry("Use One Wallet", !wiz->field("networkWallet").toBool());
+-                cfg.sync();
+-                reconfigure();
+-
+-                if (!useWallet) {
+-                    delete wiz;
+-                    return -1;
+-                }
+-
+-                // Create the wallet
+-                // TODO GPG select the correct wallet type upon cretion (GPG or blowfish based)
+-                KWallet::Backend *b = new KWallet::Backend(KWallet::Wallet::LocalWallet());
+-#ifdef HAVE_QGPGME
+-                if (wiz->field("useBlowfish").toBool()) {
+-                    b->setCipherType(KWallet::BACKEND_CIPHER_BLOWFISH);
+-#endif
+-                    QString pass = wiz->field("pass1").toString();
+-                    QByteArray p(pass.toUtf8(), pass.length());
+-                    b->open(p);
+-                    p.fill(0);
+-#ifdef HAVE_QGPGME
+-                } else {
+-                    assert(wiz->field("useGpg").toBool());
+-                    b->setCipherType(KWallet::BACKEND_CIPHER_GPG);
+-                    b->open(wiz->gpgKey());
+-                }
+-#endif
+-                b->createFolder(KWallet::Wallet::PasswordFolder());
+-                b->createFolder(KWallet::Wallet::FormDataFolder());
+-                b->close(true);
+-                delete b;
+-                delete wiz;
+-            } else {
+-                delete wiz;
+-                return -1;
+-            }
+-        }
++        } 
++//         else {
++//             // First use wizard
++//             // TODO GPG adjust new smartcard options gathered by the wizard
++//             QPointer<KWalletWizard> wiz = new KWalletWizard(0);
++//             wiz->setWindowTitle(i18n("KDE Wallet Service"));
++//             setupDialog(wiz, (WId)wId, appid, modal);
++//             int rc = wiz->exec();
++//             if (rc == QDialog::Accepted && wiz) {
++//                 bool useWallet = wiz->field("useWallet").toBool();
++//                 KConfig kwalletrc("kwalletrc");
++//                 KConfigGroup cfg(&kwalletrc, "Wallet");
++//                 cfg.writeEntry("First Use", false);
++//                 cfg.writeEntry("Enabled", useWallet);
++//                 cfg.writeEntry("Close When Idle", wiz->field("closeWhenIdle").toBool());
++//                 cfg.writeEntry("Use One Wallet", !wiz->field("networkWallet").toBool());
++//                 cfg.sync();
++//                 reconfigure();
++// 
++//                 if (!useWallet) {
++//                     delete wiz;
++//                     return -1;
++//                 }
++// 
++//                 // Create the wallet
++//                 // TODO GPG select the correct wallet type upon cretion (GPG or blowfish based)
++//                 KWallet::Backend *b = new KWallet::Backend(KWallet::Wallet::LocalWallet());
++// #ifdef HAVE_QGPGME
++//                 if (wiz->field("useBlowfish").toBool()) {
++//                     b->setCipherType(KWallet::BACKEND_CIPHER_BLOWFISH);
++// #endif
++//                     QString pass = wiz->field("pass1").toString();
++//                     QByteArray p(pass.toUtf8(), pass.length());
++//                     b->open(p);
++//                     p.fill(0);
++// #ifdef HAVE_QGPGME
++//                 } else {
++//                     assert(wiz->field("useGpg").toBool());
++//                     b->setCipherType(KWallet::BACKEND_CIPHER_GPG);
++//                     b->open(wiz->gpgKey());
++//                 }
++// #endif
++//                 b->createFolder(KWallet::Wallet::PasswordFolder());
++//                 b->createFolder(KWallet::Wallet::FormDataFolder());
++//                 b->close(true);
++//                 delete b;
++//                 delete wiz;
++//             } else {
++//                 delete wiz;
++//                 return -1;
++//             }
++//         }
+     }
+ 
+     int rc = internalOpen(appid, wallet, isPath, WId(wId), modal, service);

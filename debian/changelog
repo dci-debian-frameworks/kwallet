@@ -2,9 +2,13 @@ kwallet-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
+  * Add patches recommended by upstream:
+    - upstream_default-choice.diff
+    - upstream_first-use-logic.diff
+    - upstream_first-use-name.diff
 
   [ Scarlett Clark ]
-  * Fix install file 
+  * Fix install file
   * Update watch file to stable
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:42:36 +0200

@@ -1,0 +1,27 @@
+From: Valentin Rusu <kde@rusu.info>
+Date: Mon, 07 Jul 2014 21:03:31 +0000
+Subject: Give the default choice to use the kwallet system
+X-Git-Url: http://quickgit.kde.org/?p=kwallet.git&a=commitdiff&h=e688c99a7217d80326417a96dd222c148df03067
+Bug: https://bugs.kde.org/show_bug.cgi?id=337177
+---
+Give the default choice to use the kwallet system
+
+BUG: 337177
+
+Let the checkbox be initially checked. I'm sure several years ago
+asked this checkbox to be initially unchecked :-)
+---
+
+
+Index: kwallet-kf5-5.0.0/src/runtime/kwalletd/kwalletwizard.cpp
+===================================================================
+--- kwallet-kf5-5.0.0.orig/src/runtime/kwalletd/kwalletwizard.cpp
++++ kwallet-kf5-5.0.0/src/runtime/kwalletd/kwalletwizard.cpp
+@@ -93,6 +93,7 @@ public:
+         connect(ui._useWallet, SIGNAL(clicked()), parent, SLOT(passwordPageUpdate()));
+         connect(ui._pass1, SIGNAL(textChanged(QString)), parent, SLOT(passwordPageUpdate()));
+         connect(ui._pass2, SIGNAL(textChanged(QString)), parent, SLOT(passwordPageUpdate()));
++        ui._useWallet->setChecked(true);
+     }
+ 
+     virtual int nextId() const
