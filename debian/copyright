@@ -3,11 +3,13 @@ Upstream-Name: kwallet
 Source: https://projects.kde.org/projects/frameworks/kwallet
 
 Files: *
+       debian/*
 Copyright: © 2002-2004 George Staikos <staikos@kde.org>
            © 2008 Michael Leupold <lemma@confuego.org>
            © 2007 Thomas McGuire <thomas.mcguire@gmx.net>
            © 2011 Valentin Rusu <kde@rusu.info>
            © 2010 Frank Osterfeld <osterfeld@kde.org>
+             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -26,22 +28,3 @@ License: LGPL-2+
  .
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
-
-Files: debian/*
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
