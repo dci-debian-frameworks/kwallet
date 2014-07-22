@@ -1,4 +1,4 @@
-kwallet-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+kwallet-kf5 (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
   * Add patches recommended by upstream:
@@ -6,4 +6,4 @@ kwallet-kf5 (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
     - upstream_first-use-logic.diff
     - upstream_first-use-name.diff
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 18:39:29 +0200
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 22 Jul 2014 16:07:20 +0200
