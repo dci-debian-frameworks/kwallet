@@ -3,4 +3,4 @@ usr/lib/*/cmake/KF5Wallet/*
 usr/lib/*/libKF5Wallet.so
 usr/lib/*/libkwalletbackend5.so
 usr/lib/*/qt5/mkspecs/modules/*
-usr/share/dbus-1/*
+usr/share/dbus-1/interfaces/
