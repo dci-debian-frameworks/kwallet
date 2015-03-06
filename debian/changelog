@@ -4,6 +4,12 @@ kwallet-kf5 (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:37:06 +0100
 
+kwallet-kf5 (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:15:47 +0100
+
 kwallet-kf5 (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
