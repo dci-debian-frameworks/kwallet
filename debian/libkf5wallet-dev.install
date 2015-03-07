@@ -5,5 +5,3 @@ usr/lib/*/libKF5Wallet.so
 usr/lib/*/libkwalletbackend5.so
 usr/lib/*/qt5/mkspecs/modules/qt_KWallet.pri
 usr/share/dbus-1/interfaces/kf5_org.kde.KWallet.xml
-usr/share/dbus-1/services/org.kde.kwalletd.service
-usr/share/dbus-1/services/org.kde.kwalletd5.service

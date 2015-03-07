@@ -1,4 +1,5 @@
 usr/bin/kwalletd5
-usr/share/dbus-1/services/
+usr/share/dbus-1/services/org.kde.kwalletd.service
+usr/share/dbus-1/services/org.kde.kwalletd5.service
 usr/share/knotifications5/kwalletd.notifyrc
 usr/share/kservices5/kwalletd5.desktop
