@@ -1,3 +1,9 @@
+kwallet-kf5 (5.9.0-0ubuntu1.1) vivid; urgency=medium
+
+  * Add upstream_check-empty-wallet-migration.diff LP: #1434052
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 Apr 2015 15:28:12 +0200
+
 kwallet-kf5 (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
