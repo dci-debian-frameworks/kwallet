@@ -1,3 +1,15 @@
+kwallet-kf5 (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:22:55 +0200
+
+kwallet-kf5 (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:09 +0200
+
 kwallet-kf5 (5.9.0-0ubuntu1.1) vivid; urgency=medium
 
   * Add upstream_check-empty-wallet-migration.diff LP: #1434052
@@ -10,17 +22,43 @@ kwallet-kf5 (5.9.0-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:17:04 +0200
 
+kwallet-kf5 (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:39:06 +0100
+
 kwallet-kf5 (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:28:48 +0100
 
+kwallet-kf5 (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:55 +0100
+
 kwallet-kf5 (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:15:47 +0100
+
+kwallet-kf5 (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Split -data package and update install files.
+  * Update watch file.
+  * Add acc autopkgtests.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Jan 2015 09:05:21 +0100
 
 kwallet-kf5 (5.6.0-0ubuntu1) vivid; urgency=medium
 
@@ -55,7 +93,7 @@ kwallet-kf5 (5.2.0-0ubuntu1) utopic; urgency=medium
 kwallet-kf5 (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Removed patches applied upstream. 
+  * Removed patches applied upstream.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:25:49 +0200
 
