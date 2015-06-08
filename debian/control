@@ -67,8 +67,8 @@ Package: libkf5wallet-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5wallet5 (<< 5.6.0)
-Replaces: libkf5wallet5 (<< 5.6.0)
+Breaks: libkf5wallet5 (<< 5.10)
+Replaces: libkf5wallet5 (<< 5.10)
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.

@@ -1,3 +1,9 @@
+kwallet-kf5 (5.10.0-0ubuntu2) UNRELEASED; urgency=medium
+
+  * libkf5wallet-data Breaks/Replaces libkf5wallet5 (<< 5.10)
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 08 Jun 2015 11:06:38 +0200
+
 kwallet-kf5 (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
