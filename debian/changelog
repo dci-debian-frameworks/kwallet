@@ -1,6 +1,5 @@
 kwallet-kf5 (5.11.0-1~) UNRELEASED; urgency=medium
 
-  * New upstream release (5.10.0).
   * New upstream release (5.11.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 15:04:26 +0200
