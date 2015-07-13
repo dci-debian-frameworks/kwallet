@@ -1,0 +1,3 @@
+# Already listed in libkf5wallet-bin.install
+# however the manpage is compressed giving this false positive.
+./usr/share/man/man1/kwallet-query.1
