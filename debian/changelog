@@ -1,4 +1,4 @@
-kwallet-kf5 (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kwallet-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -10,7 +10,7 @@ kwallet-kf5 (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add above patch. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:26:21 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:10:25 +0200
 
 kwallet-kf5 (5.11.0-1) unstable; urgency=medium
 
