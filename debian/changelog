@@ -1,3 +1,13 @@
+kwallet-kf5 (5.13.0-0ubuntu2) wily; urgency=medium
+
+  * Add upstream_Stop-showing-the-migration-wizard-by-default.patch to disable
+    the migration wizard dialog. Migration is in fact a non-destructive
+    import, so it can savely be run without any user input. This prevents
+    contextless kwallet dialogs on first login as well as first kwallet5
+    enabled logins (prequisite for pam unlocking experience)
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 24 Aug 2015 13:00:08 +0200
+
 kwallet-kf5 (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
