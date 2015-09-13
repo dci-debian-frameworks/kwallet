@@ -1,3 +1,11 @@
+kwallet-kf5 (5.13.0-3) UNRELEASED; urgency=medium
+
+  * Team upload.
+  * Reorder Depends/Recommends in the package so that users with recommends
+    disabled still get a functioning kwallet (Closes: #798724)
+
+ -- Scott Kitterman <scott@kitterman.com>  Sun, 13 Sep 2015 16:19:46 -0400
+
 kwallet-kf5 (5.13.0-2) unstable; urgency=medium
 
   * Add kf5gpgmepp build dep, to build the gpg backend.

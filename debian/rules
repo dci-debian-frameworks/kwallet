@@ -3,5 +3,9 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+# remove dependencies on libkf5wallet5 to avoid circular depends
+override_dh_shlibdeps:
+	$(overridden_command) -- -xlibkf5wallet5
+
 override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5wallet5-dbg
