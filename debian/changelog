@@ -2,8 +2,9 @@ kwallet-kf5 (5.14.0-1~) UNRELEASED; urgency=medium
 
   [ Scott Kitterman ]
   * Team upload.
-  * Reorder Depends/Recommends in the package so that users with recommends
-    disabled still get a functioning kwallet (Closes: #798724)
+  * Add the libkf5wallet-bin dependency in the symbols files, to have a
+    working kwallet on programs that link against libkf5wallet5.
+    (Closes: #798724)
 
   [ Maximiliano Curia ]
   * New upstream release (5.14.0).
