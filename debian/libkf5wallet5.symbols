@@ -1,6 +1,5 @@
 # SymbolsHelper-Confirmed: 4.100.0 amd64
-libKF5Wallet.so.5 libkf5wallet5 #MINVER#
-| libkf5wallet5 #MINVER#, libkf5wallet-bin
+libKF5Wallet.so.5 libkf5wallet5 #MINVER#, libkf5wallet-bin
  _ZN7KWallet6Wallet10folderListEv@Base 4.96.0
  _ZN7KWallet6Wallet10lockWalletEv@Base 4.96.0
  (subst)_ZN7KWallet6Wallet10openWalletERK7QString{quintptr}NS0_8OpenTypeE@Base 4.96.0
