@@ -1,3 +1,15 @@
+kwallet-kf5 (5.15.0-0ubuntu2) wily; urgency=medium
+
+  * Add upstream_initialize-socket-size-with-correct-value.patch to resolve a
+    rather impactful error where kwalletd5, when started through the PAM,
+    would fail to communicate with its environment socket and thus end up with
+    a night empty environment rendering the daemon broken.
+    The patch has been refreshed on top of 5.15 as git master has additional
+    changes.
+    https://bugs.kde.org/show_bug.cgi?id=351805
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 21 Oct 2015 07:41:12 +0200
+
 kwallet-kf5 (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
