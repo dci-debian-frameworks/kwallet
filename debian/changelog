@@ -1,3 +1,9 @@
+kwallet-kf5 (5.15.0-0ubuntu3) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:49 +0100
+
 kwallet-kf5 (5.15.0-0ubuntu2) wily; urgency=medium
 
   * Add upstream_initialize-socket-size-with-correct-value.patch to resolve a
