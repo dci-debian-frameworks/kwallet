@@ -1,3 +1,15 @@
+kwallet-kf5 (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:37 +0100
+
+kwallet-kf5 (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:37 +0200
+
 kwallet-kf5 (5.15.0-0ubuntu3) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
@@ -26,11 +38,37 @@ kwallet-kf5 (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:57:35 +0100
 
+kwallet-kf5 (5.14.0-1) unstable; urgency=medium
+
+  [ Scott Kitterman ]
+  * Team upload.
+  * Add the libkf5wallet-bin dependency in the symbols files, to have a
+    working kwallet on programs that link against libkf5wallet5.
+    (Closes: #798724)
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:36 +0200
+
 kwallet-kf5 (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:27:35 +0100
+
+kwallet-kf5 (5.13.0-2) unstable; urgency=medium
+
+  * Add kf5gpgmepp build dep, to build the gpg backend.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 13 Sep 2015 18:33:28 +0200
+
+kwallet-kf5 (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 10:18:37 +0200
 
 kwallet-kf5 (5.13.0-0ubuntu2) wily; urgency=medium
 
@@ -47,6 +85,13 @@ kwallet-kf5 (5.13.0-0ubuntu1) wily; urgency=medium
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:33:17 +0200
+
+kwallet-kf5 (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Add new build dep.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:51 +0200
 
 kwallet-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
 
