@@ -1,0 +1,29 @@
+diff --git a/src/runtime/kwalletd/main.cpp b/src/runtime/kwalletd/main.cpp
+index a48de08..db8d55c 100644
+--- a/src/runtime/kwalletd/main.cpp
++++ b/src/runtime/kwalletd/main.cpp
+@@ -90,21 +90,18 @@ static int waitForEnvironment()
+     }
+     printf("kwalletd5: client connected\n");
+ 
+-    char str[BSIZE] = {'\0'};
++    char str[BSIZE];
++    memset(str, '\0', sizeof(char) * BSIZE);
+ 
+     int chop = 0;
+     FILE *s3 = fdopen(s2, "r");
+     while(!feof(s3)) {
+         if (fgets(str, BSIZE, s3)) {
+             chop = strlen(str) - 1;
+-            if (str[chop] == '\n') {
+-                str[chop] = '\0';
+-            }
++            str[chop] = '\0';
+             putenv(strdup(str));
+         }
+     }
+-    fclose(s3);
+-
+     printf("kwalletd5: client disconnected\n");
+     close(socketfd);
+     return 1;
