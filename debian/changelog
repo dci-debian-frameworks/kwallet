@@ -8,6 +8,9 @@ kwallet-kf5 (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add kubuntu_revert_1d0bec904dd78ff21d1d68e9c3e363ad1a77f7ed.diff
     to revert an upstream commit that freezes kwallet when started by kwallet-pam
 
+  [ Bhushan Shah ]
+  * Remove patch, doesn't apply after upstream change
+
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:08:39 +0100
 
 kwallet-kf5 (5.16.0-1) unstable; urgency=medium
