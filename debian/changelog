@@ -1,3 +1,10 @@
+kwallet-kf5 (5.19.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Fixing install file
+
+ -- Clive Johnston <clivejo@aol.com>  Thu, 25 Feb 2016 19:38:34 +0000
+
 kwallet-kf5 (5.18.0a-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
