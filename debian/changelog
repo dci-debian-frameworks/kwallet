@@ -1,3 +1,22 @@
+kwallet-kf5 (5.20.0-1~1.gbpf5930a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f5930a6a2a29e9ea914c1b4d77aeb13cff00ab39 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds logs (5.19.0-1)
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 04 Apr 2016 15:34:32 +0200
+
 kwallet-kf5 (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).

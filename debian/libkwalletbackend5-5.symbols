@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.19.0 hppa sparc64 x32
 libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN4SHA14hashEv@Base 4.96.0
  _ZN4SHA15resetEv@Base 4.96.0
@@ -71,7 +71,7 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZNK8BlowFish14variableKeyLenEv@Base 4.96.0
  _ZNK8BlowFish6keyLenEv@Base 4.96.0
  _ZNK8BlowFish9readyToGoEv@Base 4.96.0
- (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 5.13.0
+ (optional=templinst|arch=!hppa !sparc64 !x32)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIIRKS1_EEEvDpOT_@Base 5.13.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 5.13.0
  _ZTI10QByteArray@Base 4.96.0
  _ZTI8BlowFish@Base 4.96.0
