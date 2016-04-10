@@ -1,6 +1,6 @@
-kwallet-kf5 (5.20.0-1~1.gbpf5930a) UNRELEASED; urgency=medium
+kwallet-kf5 (5.21.0-1~1.gbpa213b8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f5930a6a2a29e9ea914c1b4d77aeb13cff00ab39 **
+  ** SNAPSHOT build @a213b82ec495d73332786a805e3aca1f32801743 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,14 @@ kwallet-kf5 (5.20.0-1~1.gbpf5930a) UNRELEASED; urgency=medium
   * Update symbols files with the buildds logs (5.19.0-1)
 
   [ Maximiliano Curia ]
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 04 Apr 2016 15:34:32 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:31:22 +0200
 
 kwallet-kf5 (5.19.0-1) experimental; urgency=medium
 
