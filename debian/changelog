@@ -10,6 +10,12 @@ kwallet-kf5 (5.20.0-0neon) wily; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 01 Apr 2016 11:08:24 +0000
 
+kwallet-kf5 (5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:28 +0100
+
 kwallet-kf5 (5.18.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
@@ -19,6 +25,13 @@ kwallet-kf5 (5.18.0a-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:08:39 +0100
+
+kwallet-kf5 (5.18.0-1) experimental; urgency=medium
+
+  * New upstream release (5.17.0).
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:20 +0100
 
 kwallet-kf5 (5.16.0-1) unstable; urgency=medium
 
