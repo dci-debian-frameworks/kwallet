@@ -1,6 +1,6 @@
-kwallet-kf5 (5.21.0-1~2.gbp69a904) UNRELEASED; urgency=medium
+kwallet-kf5 (5.22.0-1~1.gbp727b12) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @69a90418a8d98df0aaf10a4225e9c772937d8653 **
+  ** SNAPSHOT build @727b1269b6f86947b7cb5cb3e4085fbf254f5a6d **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,6 +13,7 @@ kwallet-kf5 (5.21.0-1~2.gbp69a904) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs (5.19.0-1)
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * uscan no longer supports more than one main upstream tarball being listed
@@ -22,7 +23,7 @@ kwallet-kf5 (5.21.0-1~2.gbp69a904) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 10 May 2016 15:36:22 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:31:16 +0200
 
 kwallet-kf5 (5.19.0-1) experimental; urgency=medium
 
