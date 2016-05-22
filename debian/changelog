@@ -1,29 +1,18 @@
-kwallet-kf5 (5.22.0-1~1.gbp727b12) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @727b1269b6f86947b7cb5cb3e4085fbf254f5a6d **
+kwallet-kf5 (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs (5.19.0-1)
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
-  [ Maximiliano Curia ]
-  * uscan no longer supports more than one main upstream tarball being listed
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:31:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 08:57:10 +0200
 
 kwallet-kf5 (5.19.0-1) experimental; urgency=medium
 
