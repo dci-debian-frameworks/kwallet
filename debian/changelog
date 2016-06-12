@@ -1,3 +1,12 @@
+kwallet-kf5 (5.23.0-1~1.gbp3346e0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3346e0c52d25b28ddde32990e555dfe41254b56b **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.22.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 00:31:56 +0200
+
 kwallet-kf5 (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
