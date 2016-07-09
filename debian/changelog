@@ -1,10 +1,17 @@
-kwallet-kf5 (5.23.0-2~1.gbp188ca1) UNRELEASED; urgency=medium
+kwallet-kf5 (5.24.0-1~1.gbp572447) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @572447bcb13e5f36247b3872a60d2959a3f82e12 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @188ca124c69902e4fba01d2af6b419e1aac71177 **
 
   * Add new patch: blowfish_endianess.diff (Closes: 828160)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 26 Jun 2016 21:10:29 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 12:31:13 +0200
 
 kwallet-kf5 (5.23.0-1) unstable; urgency=medium
 
