@@ -1,3 +1,9 @@
+kwallet-kf5 (5.23.0-3) unstable; urgency=medium
+
+  * Fix previous upload.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 17 Jul 2016 17:23:18 +0200
+
 kwallet-kf5 (5.23.0-2) unstable; urgency=medium
 
   [ Maximiliano Curia ]
