@@ -1,10 +1,21 @@
-kwallet-kf5 (5.24.0-1~1.gbpb2f591) UNRELEASED; urgency=medium
+kwallet-kf5 (5.24.0-1~2.gbp9baf52) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @9baf5290378c05a9ea22c1914b027330d0a52d8a **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @b2f591528d7669c8a15506eda6ebe41222b80d24 **
 
   * UNRELEASED
+  * Revert "Update build-deps and deps with the info from cmake"
+  * Fix previous upload
+  * Revert "Update build-deps and deps with the info from cmake"
+  * Fix previous upload
+  * Revert "Revert "Update build-deps and deps with the info from cmake""
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Sun, 17 Jul 2016 10:19:02 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Jul 2016 19:31:17 +0200
 
 kwallet-kf5 (5.23.0-3) unstable; urgency=medium
 
