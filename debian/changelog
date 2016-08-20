@@ -1,22 +1,13 @@
-kwallet-kf5 (5.25.0-1~1.gbpcf6c26) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @cf6c26866e861b2b98abf20fe96ffb9ec261adf9 **
+kwallet-kf5 (5.25.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @b2f591528d7669c8a15506eda6ebe41222b80d24 **
-
-  * UNRELEASED
-  * Revert "Update build-deps and deps with the info from cmake"
   * Fix previous upload
-  * Revert "Update build-deps and deps with the info from cmake"
-  * Fix previous upload
-  * Revert "Revert "Update build-deps and deps with the info from cmake""
+  * Bump group breaks (5.25)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 18:31:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 12:56:12 +0200
 
 kwallet-kf5 (5.23.0-3) unstable; urgency=medium
 
