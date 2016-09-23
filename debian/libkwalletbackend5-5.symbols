@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.22.0 hppa sparc64 x32
 libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN4SHA14hashEv@Base 4.96.0
  _ZN4SHA15resetEv@Base 4.96.0
