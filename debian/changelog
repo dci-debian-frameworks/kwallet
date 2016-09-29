@@ -1,11 +1,13 @@
-kwallet-kf5 (5.26.0-1~1.gbpa94ced) UNRELEASED; urgency=medium
+kwallet-kf5 (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @a94ced53d2634745d9acde36d956608c2a4c6cec **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds logs.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 18:38:43 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:01:20 +0200
 
 kwallet-kf5 (5.25.0-1) unstable; urgency=medium
 
