@@ -4,11 +4,16 @@ kwallet-kf5 (5.27.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:33:03 +0000
 
-kwallet-kf5 (5.26.0-0neon) xenial; urgency=medium
+kwallet-kf5 (5.26.0-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files with the buildds logs.
 
- -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:34:11 +0000
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.26)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 12:01:20 +0200
 
 kwallet-kf5 (5.25.0-1) unstable; urgency=medium
 
