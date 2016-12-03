@@ -1,7 +1,9 @@
 kwallet-kf5 (5.28.0-3) UNRELEASED; urgency=medium
 
   * Team upload.
-  * 
+
+  [ Sandro Knauß ]
+  * Use unversioned libboost-dev build-dep.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 14:05:14 +0100
 
