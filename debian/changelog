@@ -4,6 +4,9 @@ kwallet-kf5 (5.28.0-2~) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * Add signature verification for uscan.
+  * Build against gpgme>=1.8.0, to get rid of gpgmepp.
+    - Update Build-Deps (libboost1.61-dev, libgpgme-dev, libgpgmepp-dev).
+    - Update symbol files (new templinst symbols).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 12:25:40 +0100
 
