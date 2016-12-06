@@ -1,3 +1,15 @@
+kwallet-kf5 (5.28.0-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Add signature verification for uscan.
+  * Build against gpgme>=1.8.0, to get rid of gpgmepp.
+    - Update Build-Deps (libboost1.61-dev, libgpgme-dev, libgpgmepp-dev).
+    - Update symbol files (new templinst symbols).
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 03 Dec 2016 12:58:58 +0100
+
 kwallet-kf5 (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
