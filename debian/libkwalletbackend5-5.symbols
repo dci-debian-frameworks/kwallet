@@ -1,5 +1,10 @@
-# SymbolsHelper-Confirmed: 5.25.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.27.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
+ _ZN11BlockCipherC1Ev@Base 5.27.0
+ _ZN11BlockCipherC2Ev@Base 5.27.0
+ _ZN11BlockCipherD0Ev@Base 5.27.0
+ _ZN11BlockCipherD1Ev@Base 5.27.0
+ _ZN11BlockCipherD2Ev@Base 5.27.0
  _ZN4SHA14hashEv@Base 4.96.0
  _ZN4SHA15resetEv@Base 4.96.0
  _ZN4SHA17processEPKvi@Base 4.96.0
@@ -53,6 +58,7 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN8BlowFishD0Ev@Base 4.96.0
  _ZN8BlowFishD1Ev@Base 4.96.0
  _ZN8BlowFishD2Ev@Base 4.96.0
+ _ZNK11BlockCipher9blockSizeEv@Base 5.27.0
  _ZNK4SHA14sizeEv@Base 4.96.0
  _ZNK4SHA19readyToGoEv@Base 4.96.0
  _ZNK7KWallet5Entry3keyEv@Base 4.96.0
@@ -73,7 +79,10 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZNK8BlowFish9readyToGoEv@Base 4.96.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 5.13.0
  _ZTI10QByteArray@Base 4.96.0
+ _ZTI11BlockCipher@Base 5.27.0
  _ZTI8BlowFish@Base 4.96.0
  _ZTS10QByteArray@Base 4.96.0
+ _ZTS11BlockCipher@Base 5.27.0
  _ZTS8BlowFish@Base 4.96.0
+ _ZTV11BlockCipher@Base 5.27.0
  _ZTV8BlowFish@Base 4.96.0

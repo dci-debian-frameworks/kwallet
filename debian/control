@@ -5,23 +5,23 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.27.0~),
+               extra-cmake-modules (>= 5.28.0~),
                kdoctools-dev (>= 5.25.0~),
                libboost-dev,
                libgcrypt20-dev (>= 1.5.0~),
                libgpgme11-dev,
-               libkf5config-dev (>= 5.27.0~),
-               libkf5configwidgets-dev (>= 5.27.0~),
-               libkf5coreaddons-dev (>= 5.27.0~),
-               libkf5dbusaddons-dev (>= 5.27.0~),
-               libkf5doctools-dev (>= 5.27.0~),
+               libkf5config-dev (>= 5.28.0~),
+               libkf5configwidgets-dev (>= 5.28.0~),
+               libkf5coreaddons-dev (>= 5.28.0~),
+               libkf5dbusaddons-dev (>= 5.28.0~),
+               libkf5doctools-dev (>= 5.28.0~),
                libkf5gpgmepp-dev,
-               libkf5i18n-dev (>= 5.27.0~),
-               libkf5iconthemes-dev (>= 5.27.0~),
-               libkf5notifications-dev (>= 5.27.0~),
-               libkf5service-dev (>= 5.27.0~),
-               libkf5widgetsaddons-dev (>= 5.27.0~),
-               libkf5windowsystem-dev (>= 5.27.0~),
+               libkf5i18n-dev (>= 5.28.0~),
+               libkf5iconthemes-dev (>= 5.28.0~),
+               libkf5notifications-dev (>= 5.28.0~),
+               libkf5service-dev (>= 5.28.0~),
+               libkf5widgetsaddons-dev (>= 5.28.0~),
+               libkf5windowsystem-dev (>= 5.28.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
@@ -32,9 +32,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwallet.git
 Package: libkf5wallet-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5config-dev (>= 5.27.0~),
+Depends: libkf5config-dev (>= 5.28.0~),
          libkf5wallet5 (= ${binary:Version}),
-         libkf5windowsystem-dev (>= 5.27.0~),
+         libkf5windowsystem-dev (>= 5.28.0~),
          libkwalletbackend5-5 (= ${binary:Version}),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
@@ -43,15 +43,15 @@ Description: development files for kwallet-framework
  for passwords on KDE workspaces.
  .
  Contains development files for kwallet-framework.
-Breaks: libkf5kdelibs4support-dev (<< 5.27), libkf5khtml-dev (<< 5.27)
+Breaks: libkf5kdelibs4support-dev (<< 5.28), libkf5khtml-dev (<< 5.28)
 
 Package: libkf5wallet-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kio (<< 5.27),
-        libkf5khtml5 (<< 5.27),
+Breaks: kio (<< 5.28),
+        libkf5khtml5 (<< 5.28),
         libkf5wallet5 (<< 4.100.0),
-        libkf5webkit5 (<< 5.27)
+        libkf5webkit5 (<< 5.28)
 Replaces: libkf5wallet5 (<< 4.100.0)
 Description: Secure and unified container for user passwords.
  Runtime for interface to KWallet, the safe desktop-wide storage
@@ -69,7 +69,7 @@ Multi-Arch: same
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
-Breaks: kio (<< 5.27), libkf5khtml5 (<< 5.27), libkf5webkit5 (<< 5.27)
+Breaks: kio (<< 5.28), libkf5khtml5 (<< 5.28), libkf5webkit5 (<< 5.28)
 
 Package: libkf5wallet-data
 Architecture: all
