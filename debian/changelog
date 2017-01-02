@@ -4,6 +4,15 @@ kwallet-kf5 (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:09:12 +0000
 
+kwallet-kf5 (5.28.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Use unversioned libboost-dev build-dep.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 28 Dec 2016 18:52:52 +0100
+
 kwallet-kf5 (5.28.0-2) unstable; urgency=medium
 
   * Team upload.
