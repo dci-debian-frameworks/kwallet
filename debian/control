@@ -22,7 +22,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5service-dev (>= 5.28.0~),
                libkf5widgetsaddons-dev (>= 5.28.0~),
                libkf5windowsystem-dev (>= 5.28.0~),
-               libqgpgme7-dev,
+               libqgpgme7-dev | libgpgmepp-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~)
 Standards-Version: 3.9.8
