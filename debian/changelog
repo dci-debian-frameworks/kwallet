@@ -1,4 +1,4 @@
-kwallet-kf5 (5.36.0-1~) UNRELEASED; urgency=medium
+kwallet-kf5 (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -9,6 +9,8 @@ kwallet-kf5 (5.36.0-1~) UNRELEASED; urgency=medium
   * Use only the pp version
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
   [ Helmut Grohne ]
   * Mark libkf5wallet-dev Multi-Arch: same (Closes: 864674)
@@ -16,7 +18,7 @@ kwallet-kf5 (5.36.0-1~) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * acc c++11. now used more liberally
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:44:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:42:15 +0200
 
 kwallet-kf5 (5.28.0-3) unstable; urgency=medium
 
