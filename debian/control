@@ -43,7 +43,7 @@ Depends: libkf5config-dev (>= 5.36.0~),
          libkwalletbackend5-5 (= ${binary:Version}),
          qtbase5-dev (>= 5.6.0~),
          ${misc:Depends}
-Recommends: libkf5wallet-doc (= ${binary:Version})
+Recommends: libkf5wallet-doc (= ${source:Version})
 Description: development files for kwallet-framework
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
