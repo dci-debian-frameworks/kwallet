@@ -1,9 +1,12 @@
-kwallet-kf5 (5.36.0-2~) UNRELEASED; urgency=medium
+kwallet-kf5 (5.36.0-2) experimental; urgency=medium
 
   * New revision
   * Update symbols files from the buildds logs
+  * Build the qch files
+  * Add libkf5wallet-doc package for the qch files
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Aug 2017 15:25:46 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Aug 2017 19:59:10 +0200
 
 kwallet-kf5 (5.36.0-1) experimental; urgency=medium
 
