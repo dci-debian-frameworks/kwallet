@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.36.0 armel
 libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN11BlockCipherC1Ev@Base 5.27.0
  _ZN11BlockCipherC2Ev@Base 5.27.0
@@ -77,25 +77,40 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZNK8BlowFish14variableKeyLenEv@Base 4.96.0
  _ZNK8BlowFish6keyLenEv@Base 4.96.0
  _ZNK8BlowFish9readyToGoEv@Base 4.96.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 5.36.0
  (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.28.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.36.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 5.36.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE1EE14_M_get_deleterERKSt9type_info@Base 5.36.0
  (optional=templinst)_ZNSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.35.0
  (optional=templinst)_ZNSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 5.35.0
  (optional=templinst)_ZNSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 5.35.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.36.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 5.36.0
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.28.0
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 5.28.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 5.13.0
  _ZTI10QByteArray@Base 4.96.0
  _ZTI11BlockCipher@Base 5.27.0
  _ZTI8BlowFish@Base 4.96.0
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
- _ZTISt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTIN9__gnu_cxx7__mutexE@Base 5.36.0
+ (optional=gccinternal|arch=armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTISt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTISt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
  _ZTS10QByteArray@Base 4.96.0
  _ZTS11BlockCipher@Base 5.27.0
  _ZTS8BlowFish@Base 4.96.0
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
- _ZTSSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTSN9__gnu_cxx7__mutexE@Base 5.36.0
+ (optional=gccinternal|arch=armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTSSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTSSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
  _ZTV11BlockCipher@Base 5.27.0
  _ZTV8BlowFish@Base 4.96.0
- _ZTVSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
+ (optional=gccinternal|arch=armel)_ZTVSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE1EE@Base 5.36.0
+ (optional=gccinternal|arch=!armel)_ZTVSt15_Sp_counted_ptrIPN5GpgME7ContextELN9__gnu_cxx12_Lock_policyE2EE@Base 5.35.0
