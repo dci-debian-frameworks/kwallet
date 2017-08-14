@@ -6,27 +6,27 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
                doxygen,
-               extra-cmake-modules (>= 5.36.0~),
+               extra-cmake-modules (>= 5.37.0~),
                graphviz,
                kdoctools-dev (>= 5.25.0~),
                libboost-dev,
                libgcrypt20-dev (>= 1.5.0~),
                libgpgme-dev,
                libgpgmepp-dev (>= 1.7.0~),
-               libkf5config-dev (>= 5.36.0~),
-               libkf5configwidgets-dev (>= 5.36.0~),
-               libkf5coreaddons-dev (>= 5.36.0~),
-               libkf5dbusaddons-dev (>= 5.36.0~),
-               libkf5doctools-dev (>= 5.36.0~),
-               libkf5i18n-dev (>= 5.36.0~),
-               libkf5iconthemes-dev (>= 5.36.0~),
-               libkf5notifications-dev (>= 5.36.0~),
-               libkf5service-dev (>= 5.36.0~),
-               libkf5widgetsaddons-dev (>= 5.36.0~),
-               libkf5windowsystem-dev (>= 5.36.0~),
+               libkf5config-dev (>= 5.37.0~),
+               libkf5configwidgets-dev (>= 5.37.0~),
+               libkf5coreaddons-dev (>= 5.37.0~),
+               libkf5dbusaddons-dev (>= 5.37.0~),
+               libkf5doctools-dev (>= 5.37.0~),
+               libkf5i18n-dev (>= 5.37.0~),
+               libkf5iconthemes-dev (>= 5.37.0~),
+               libkf5notifications-dev (>= 5.37.0~),
+               libkf5service-dev (>= 5.37.0~),
+               libkf5widgetsaddons-dev (>= 5.37.0~),
+               libkf5windowsystem-dev (>= 5.37.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.6.0~),
+               qtbase5-dev (>= 5.7.0~),
                qttools5-dev-tools
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kwallet
@@ -37,11 +37,11 @@ Package: libkf5wallet-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5config-dev (>= 5.36.0~),
+Depends: libkf5config-dev (>= 5.37.0~),
          libkf5wallet5 (= ${binary:Version}),
-         libkf5windowsystem-dev (>= 5.36.0~),
+         libkf5windowsystem-dev (>= 5.37.0~),
          libkwalletbackend5-5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.6.0~),
+         qtbase5-dev (>= 5.7.0~),
          ${misc:Depends}
 Recommends: libkf5wallet-doc (= ${source:Version})
 Description: development files for kwallet-framework
