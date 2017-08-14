@@ -49,15 +49,15 @@ Description: development files for kwallet-framework
  for passwords on KDE workspaces.
  .
  Contains development files for kwallet-framework.
-Breaks: libkf5kdelibs4support-dev (<< 5.36), libkf5khtml-dev (<< 5.36)
+Breaks: libkf5kdelibs4support-dev (<< 5.37), libkf5khtml-dev (<< 5.37)
 
 Package: libkf5wallet-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kio (<< 5.36),
-        libkf5khtml5 (<< 5.36),
+Breaks: kio (<< 5.37),
+        libkf5khtml5 (<< 5.37),
         libkf5wallet5 (<< 4.100.0),
-        libkf5webkit5 (<< 5.36)
+        libkf5webkit5 (<< 5.37)
 Replaces: libkf5wallet5 (<< 4.100.0)
 Description: Secure and unified container for user passwords.
  Runtime for interface to KWallet, the safe desktop-wide storage
@@ -75,7 +75,7 @@ Multi-Arch: same
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
-Breaks: kio (<< 5.36), libkf5khtml5 (<< 5.36), libkf5webkit5 (<< 5.36)
+Breaks: kio (<< 5.37), libkf5khtml5 (<< 5.37), libkf5webkit5 (<< 5.37)
 
 Package: libkf5wallet-doc
 Architecture: all
