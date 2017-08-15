@@ -27,29 +27,11 @@ Build-Depends: cmake (>= 3.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.7.0~),
-               qttools5-dev-tools
+               qttools5-dev-tools,
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kwallet
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kwallet.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwallet.git
-
-Package: libkf5wallet-dev
-Section: libdevel
-Architecture: any
-Multi-Arch: same
-Depends: libkf5config-dev (>= 5.37.0~),
-         libkf5wallet5 (= ${binary:Version}),
-         libkf5windowsystem-dev (>= 5.37.0~),
-         libkwalletbackend5-5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
-Recommends: libkf5wallet-doc (= ${source:Version})
-Description: development files for kwallet-framework
- Interface to KWallet, the safe desktop-wide storage
- for passwords on KDE workspaces.
- .
- Contains development files for kwallet-framework.
-Breaks: libkf5kdelibs4support-dev (<< 5.37), libkf5khtml-dev (<< 5.37)
 
 Package: libkf5wallet-bin
 Architecture: any
@@ -57,35 +39,13 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kio (<< 5.37),
         libkf5khtml5 (<< 5.37),
         libkf5wallet5 (<< 4.100.0),
-        libkf5webkit5 (<< 5.37)
+        libkf5webkit5 (<< 5.37),
 Replaces: libkf5wallet5 (<< 4.100.0)
 Description: Secure and unified container for user passwords.
  Runtime for interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
  .
  Contains the runtime files for kwallet-framework
-
-Package: libkf5wallet5
-Architecture: any
-Depends: libkf5wallet-data (= ${source:Version}),
-         libkwalletbackend5-5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Multi-Arch: same
-Description: Secure and unified container for user passwords.
- Interface to KWallet, the safe desktop-wide storage
- for passwords on KDE workspaces.
-Breaks: kio (<< 5.37), libkf5khtml5 (<< 5.37), libkf5webkit5 (<< 5.37)
-
-Package: libkf5wallet-doc
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Secure and unified container for user passwords.
- Interface to KWallet, the safe desktop-wide storage
- for passwords on KDE workspaces.
- .
- This package contains the qch documentation files.
 
 Package: libkf5wallet-data
 Architecture: all
@@ -98,6 +58,46 @@ Description: Secure and unified container for user passwords.
  for passwords on KDE workspaces.
  .
  Contains the translation files for kwallet-framework
+
+Package: libkf5wallet-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5config-dev (>= 5.37.0~),
+         libkf5wallet5 (= ${binary:Version}),
+         libkf5windowsystem-dev (>= 5.37.0~),
+         libkwalletbackend5-5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.7.0~),
+         ${misc:Depends},
+Recommends: libkf5wallet-doc (= ${source:Version})
+Description: development files for kwallet-framework
+ Interface to KWallet, the safe desktop-wide storage
+ for passwords on KDE workspaces.
+ .
+ Contains development files for kwallet-framework.
+Breaks: libkf5kdelibs4support-dev (<< 5.37), libkf5khtml-dev (<< 5.37)
+
+Package: libkf5wallet-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Secure and unified container for user passwords.
+ Interface to KWallet, the safe desktop-wide storage
+ for passwords on KDE workspaces.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5wallet5
+Architecture: any
+Depends: libkf5wallet-data (= ${source:Version}),
+         libkwalletbackend5-5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Multi-Arch: same
+Description: Secure and unified container for user passwords.
+ Interface to KWallet, the safe desktop-wide storage
+ for passwords on KDE workspaces.
+Breaks: kio (<< 5.37), libkf5khtml5 (<< 5.37), libkf5webkit5 (<< 5.37)
 
 Package: libkwalletbackend5-5
 Architecture: any
