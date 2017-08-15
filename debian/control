@@ -86,6 +86,7 @@ Description: Secure and unified container for user passwords.
  for passwords on KDE workspaces.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5wallet5
 Architecture: any
