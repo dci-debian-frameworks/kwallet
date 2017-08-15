@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.36.0 armel
+# SymbolsHelper-Confirmed: 5.37.0 amd64
 libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  _ZN11BlockCipherC1Ev@Base 5.27.0
  _ZN11BlockCipherC2Ev@Base 5.27.0
@@ -89,6 +89,7 @@ libkwalletbackend5.so.5 libkwalletbackend5-5 #MINVER#
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 5.36.0
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.28.0
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 5.28.0
+ (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 5.37.0
  (optional=templinst)_ZNSt6vectorIN5GpgME3KeyESaIS1_EE19_M_emplace_back_auxIJRKS1_EEEvDpOT_@Base 5.13.0
  _ZTI10QByteArray@Base 4.96.0
  _ZTI11BlockCipher@Base 5.27.0
