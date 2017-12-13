@@ -297,16 +297,6 @@ kwallet-kf5 (5.19.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:28 +0100
 
-kwallet-kf5 (5.18.0a-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:08:39 +0100
-
 kwallet-kf5 (5.18.0-1) experimental; urgency=medium
 
   * New upstream release (5.17.0).
@@ -419,8 +409,8 @@ kwallet-kf5 (5.12.0-0ubuntu1) wily; urgency=medium
   * Update installed files.
 
   [ Scarlett Clark ]
-  * Add above patch. 
-  * Vivid backport. 
+  * Add above patch.
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:10:25 +0200
 
