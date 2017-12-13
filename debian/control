@@ -8,11 +8,11 @@ Build-Depends: cmake (>= 3.0~),
                doxygen,
                extra-cmake-modules (>= 5.38.0~),
                graphviz,
-               kdoctools-dev (>= 5.25.0~),
                libboost-dev,
                libgcrypt20-dev (>= 1.5.0~),
-               libgpgme-dev,
-               libgpgmepp-dev (>= 1.7.0~),
+               libgpgme-dev | libgpgme11-dev,
+               libgpgmepp-dev (>= 1.7.0~) | libgpgmepp6-dev,
+               libgpgmepp-dev | libqgpgme7-dev,
                libkf5config-dev (>= 5.38.0~),
                libkf5configwidgets-dev (>= 5.38.0~),
                libkf5coreaddons-dev (>= 5.38.0~),
@@ -35,7 +35,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kwallet.git
 
 Package: libkf5wallet-bin
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5wallet-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
 Breaks: kio (<< 5.37),
         libkf5khtml5 (<< 5.37),
         libkf5wallet5 (<< 4.100.0),
@@ -51,8 +53,8 @@ Package: libkf5wallet-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5wallet5 (<< 5.10)
-Replaces: libkf5wallet5 (<< 5.10)
+Breaks: libkf5wallet-bin (<< 5.41), libkf5wallet5 (<< 5.10)
+Replaces: libkf5wallet-bin (<< 5.41), libkf5wallet5 (<< 5.10)
 Description: Secure and unified container for user passwords.
  Interface to KWallet, the safe desktop-wide storage
  for passwords on KDE workspaces.
